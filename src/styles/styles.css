@@ -23,24 +23,20 @@ header img {
 }
 
 section.top-page {
+    width: max;
     height: 75px;
     background-color: #FDFD96;
     margin: 0;
 }
 
-.top-page img {
-    height: 75%;
-    align-items: center;
-}
-
-section.body {
+section.landing-page {
     background: url("../src/images/bg.");
     background-size: cover;
     height: 80vh;
     padding: 25px;
 }
 
-.body h2 {
+.landing-page h2 {
     padding: 1ch 2ch;
     font-size: 30px;
     font-family: "Poppins";
@@ -49,10 +45,10 @@ section.body {
 
 nav.nav {
 	display: flex;
-	justify-content: space-between;
+    justify-content: space-between;
+    flex-wrap: wrap;
 	list-style: none;
 	width: 400px;
-	margin-left: 50px;
 }
 
 nav.nav li a {
